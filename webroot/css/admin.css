@@ -1,0 +1,145 @@
+.message {
+    margin: 12px 4px;
+    padding: 24px 12px;
+    text-align: center;
+}
+
+.error {
+    color: #b10000;
+    background-color: #ffdddd;
+}
+
+.warning {
+    color: #b15e00;
+    background-color: #ffebdf;
+}
+
+.success {
+    color: #067600;
+    background-color: #e3ffdf;
+}
+
+.table .action-col {
+    text-align: right;
+}
+
+/*
+ * Delete buttons should be harder to click. They should not be right next to other buttons where they may get
+ * accidentally clicked. As such, we make it smaller and push it slightly to the right away from other buttons to
+ * its left.
+ */
+.btn-delete {
+    margin-left: 12px;
+    font-size: 0.8em;
+}
+
+.btn[disabled=disabled] {
+    background-color: #ebebeb !important;
+    color: #8d8d8d !important;
+    border-color: #c2c2c2 !important;
+}
+
+/* All except the first title need space above them to separate parts of the dashboard from eachother. */
+.dashboard-page .title-block:not(:first-child) {
+    margin-top: 32px;
+}
+
+
+.sidebar-header .brand a.a1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.sidebar-header .brand a.a2 {
+    font-size: 12px;
+    font-weight: bold;
+    color:#85CE36;;
+    display: block;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    float:right;
+}
+
+.sidebar-header .brand a.a1:hover {
+    text-decoration: underline;
+}
+
+.chosen-container {
+    display: block;
+}
+
+.indicatorDefault {
+    background: rgba(4, 15, 95, 0.24);
+    border-radius: 10px;
+    width: 220px;
+    padding-left: 9px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.article-row.published {
+    background-color: #ffffff;
+}
+
+.article-row.unpublished {
+    background-color: #ffffff;
+}
+
+a.btn.btn-oval{
+    width: 120px;
+    text-align: center;
+}
+a.btn.btn-oval.btn-primary{
+    background-color: #ffffff;
+    border-color: #85CE36;
+    color: #85CE36;
+    width: 150px;
+}
+
+a.btn.btn-oval.btn-primary.btn-edit{
+    background-color: #ffffff;
+    border-color: #85CE36;
+    color: #85CE36;
+    width:120px;
+    text-align: center;
+}
+a.btn.btn-oval.btn-warning.btn-edit{
+    background-color: #ffffff;
+    border-color: #6769d4;
+    color: #6769d4;
+}
+a.btn.btn-oval.btn-info.btn-edit{
+    background-color: #ffffff;
+    border-color: #668db4;
+    color: #668db4;
+}
+
+a.btn.btn-oval.btn-secondary.btn-view{
+    background-color: #ffffff;
+    border-color: #4f5f6f;
+    color: #4f5f6f;
+}
+
+a.btn.btn-oval.btn-danger.btn-delete{
+    background-color: #ffffff;
+    border-color: #ff4444;
+    color: #ff4444;
+}
+a.pull-right.btn.btn-oval.btn-primary{
+    margin: 0px 0px 12px;
+    padding: 6px 12px;
+}
