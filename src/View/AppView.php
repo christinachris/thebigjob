@@ -36,8 +36,8 @@ class AppView extends View
      */
     public function initialize()
     {
-        $this->loadHelper('html');
-        $this->loadHelper('form');
+        $this->loadHelper('Html');
+      
         $this->loadHelper('Form', [
             'widgets' => [
                 'datetime' => ['Basic'],

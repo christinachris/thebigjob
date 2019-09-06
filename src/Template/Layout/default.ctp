@@ -150,8 +150,8 @@ Also all links to localhost will be reverted back to thebigjob.com.au-->
                         <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                             <li><?= $this->Html->link(__('Home'), ['controller'=>'pages','action' => 'home']) ?></li>
                             <li><?= $this->Html->link(__('About'), ['controller'=>'pages','action' => 'about']) ?></li>
-                            <li><?= $this->Html->link(__('Free Tips'), ['controller'=>'articlesview','action' => 'index']) ?></li>
-                            <li><?= $this->Html->link(__('Find a Job'), ['controller'=>'jobsview','action' => 'index']) ?></li>
+                            <li><?= $this->Html->link(__('Free Tips'), ['controller'=>'ArticlesView','action' => 'index']) ?></li>
+                            <li><?= $this->Html->link(__('Find a Job'), ['controller'=>'JobsView','action' => 'index']) ?></li>
                             <li><span class="rounded bg-primary py-2 px-3 text-white"><span class="h5 mr-2">+</span><?= $this->Html->link(__('Post a Job'), ['controller'=>'EmployerAdmin','action' => 'index','class'=>'abc']) ?></span></li>
                         </ul>
                     </nav>

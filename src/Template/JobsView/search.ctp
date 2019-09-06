@@ -104,7 +104,7 @@
 
 
         <div class="col-lg-9 float-right">
-            <?= $this->Form->create(null, ['url' => ['controller' => 'jobsView', 'action' => 'search', 'class' => 'search-box-wrapper'], 'method' => 'GET']) ?>
+            <?= $this->Form->create(null, ['url' => ['controller' => 'JobsView', 'action' => 'search', 'class' => 'search-box-wrapper'], 'method' => 'GET']) ?>
 
             <div class="col1">
                 <?= $this->Form->control('query', ['label' => '', 'class' => 'form-control', 'value' => $query]) ?>
@@ -142,7 +142,7 @@
 
                         <div class="ml-auto">
                             <a href="#" class="btn btn-secondary rounded-circle btn-favorite text-gray-500"><span class="icon-heart"></span></a>
-                            <button class="btn btn-primary py-2"><?= $this->Html->link(__('Apply Job'), ['controller'=>'jobsview','action' => 'view',$job->id]) ?></button>
+                            <button class="btn btn-primary py-2"><?= $this->Html->link(__('Apply Job'), ['controller'=>'JobsView','action' => 'view',$job->id]) ?></button>
                         </div>
                     </div>
 

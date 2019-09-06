@@ -135,7 +135,7 @@ use App\View\AppView;
 
 <ul class="breadcrumb">
     <li><?= $this->Html->link(__('Home'), ['controller'=>'pages','action' => 'home']) ?></li>
-    <li><?= $this->Html->link(__('Jobs'), ['controller'=>'jobsview','action' => 'index']) ?></li>
+    <li><?= $this->Html->link(__('Jobs'), ['controller'=>'JobsView','action' => 'index']) ?></li>
     <li><a href="javascript:history.go(-1)" title="Return to the previous page">Jobs view</a></li>
     <li>Apply form</li>
 </ul>
